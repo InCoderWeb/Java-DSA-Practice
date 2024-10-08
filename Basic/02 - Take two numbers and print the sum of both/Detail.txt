@@ -1,0 +1,7 @@
+Problem Statement
+Objective: Write a program that takes two numbers as input and prints their sum.
+
+Input
+You will receive two integers (can be positive, negative, or zero).
+Output
+Print the sum of the two integers.

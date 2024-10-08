@@ -1,0 +1,46 @@
+Problem Statement
+
+Given an integer representing a year, determine if it is a leap year. A leap year has an extra day (February 29), so it contains 366 days instead of the usual 365.
+
+Rules for Leap Years
+
+A year is a leap year if:
+
+It is divisible by 4, and:
+It is not divisible by 100, unless:
+It is also divisible by 400.
+
+--------------------
+
+In other words:
+
+Years divisible by 400 are leap years.
+Years divisible by 100 but not 400 are not leap years.
+Years divisible by 4 but not 100 are leap years.
+Years not divisible by 4 are not leap years.
+
+--------------------
+
+Approach
+To solve this problem, you’ll need to use conditional statements to implement these rules.
+
+--------------------
+
+Example 1
+Input: year = 2020
+Explanation:
+
+2020 is divisible by 4.
+2020 is not divisible by 100.
+Therefore, 2020 is a leap year.
+Output: True
+
+--------------------
+Example 2
+Input: year = 1900
+Explanation:
+
+1900 is divisible by 4.
+1900 is divisible by 100.
+1900 is not divisible by 400.
+Therefore, 1900 is not a leap year.
